@@ -13,15 +13,15 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace DXGrid_Custom_SearchControl
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-            gridControl1.ItemsSource = (New nwindDataSetTableAdapters.CustomersTableAdapter()).GetData()
-        End Sub
-    End Class
+		Public Sub New()
+			InitializeComponent()
+			gridControl1.ItemsSource = (New nwindDataSetTableAdapters.CustomersTableAdapter()).GetData()
+		End Sub
+	End Class
 End Namespace
