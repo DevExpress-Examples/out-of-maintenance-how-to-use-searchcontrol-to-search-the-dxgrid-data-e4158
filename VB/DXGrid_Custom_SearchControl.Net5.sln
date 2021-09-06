@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_Custom_SearchControl", "DXGrid_Custom_SearchControl\DXGrid_Custom_SearchControl.csproj", "{019CF197-B784-4C1A-9781-274CD72A278D}"
+# Visual Studio 16
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DXGrid_Custom_SearchControl", "DXGrid_Custom_SearchControl\DXGrid_Custom_SearchControl.Net5.vbproj", "{019CF197-B784-4C1A-9781-274CD72A278D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
